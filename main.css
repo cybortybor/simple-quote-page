@@ -111,7 +111,29 @@ div {
     font-style: italic;
 }
 
+.country-selector a {
+    text-transform: uppercase;
+}
 
+/* Customize English flag */
+.weglot-flags.flag-3.en > a::before,
+.weglot-flags.flag-3.en > span::before {
+    background-position: -1680px 0 !important;
+}
+
+/* Customize Portuguese flag */
+.weglot-flags.flag-3.pt > a::before,
+.weglot-flags.flag-3.pt > span::before {
+    background-position: -2896px 0 !important;
+}
+
+.weglot-flags.flag-3 a::before,
+.weglot-flags.flag-3 span::before {
+    width: 16px !important;
+    height: 16px !important;
+    -webkit-background-size: auto 16px !important;
+    background-size: auto 16px !important;
+}
 
 
 
