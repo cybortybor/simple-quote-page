@@ -6,6 +6,7 @@ body {
   background: url('assets/freedom.jpeg') no-repeat center;
   background-size: cover;
   color: #333;
+  display: block;
 }
 
 html, body {
@@ -115,25 +116,26 @@ div {
     text-transform: uppercase;
 }
 
-/* Customize English flag */
-.weglot-flags.flag-3.en > a::before,
-.weglot-flags.flag-3.en > span::before {
-    background-position: -1680px 0 !important;
+
+.lang menu {
+
 }
 
-/* Customize Portuguese flag */
-.weglot-flags.flag-3.pt > a::before,
-.weglot-flags.flag-3.pt > span::before {
-    background-position: -2896px 0 !important;
+ul {
+display: block;
+list-style-type: none;
+background-color: lightcoral;
 }
 
-.weglot-flags.flag-3 a::before,
-.weglot-flags.flag-3 span::before {
-    width: 16px !important;
-    height: 16px !important;
-    -webkit-background-size: auto 16px !important;
-    background-size: auto 16px !important;
+li {
+display: inline;
 }
 
 
+.links {
+width: 30%;
+margin: 0 auto;
+padding: 2px;
+text-align: center;
 
+}
