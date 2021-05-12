@@ -1,12 +1,54 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+div, header, {
+display: block;
+}
+
+
+/* ==== BASE STYLES ==== */
+
+* {
+  box-sizing: border-box;}
+
+  /* ==== LAYOUT STYLES ==== */
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+img, {
+  margin-bottom: 1rem;
+}
 
 body {
-  width: 100%;
-  height: 100vh;
+  width: 100;
+  height: 100;
   background: url('assets/freedom.jpeg') no-repeat center;
   background-size: cover;
   color: #333;
-  display: block;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 html, body {
@@ -16,86 +58,47 @@ html, body {
   line-height: 1.5;
 }
 
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-
-  /* CSS */
-
+.lang-en {
+  text-decoration: none;
+  background-color: white;
+  color: gray !important;
+  margin: 0px 0px 0px 10px;
+  padding: 7px 7px;
 }
 
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-  /* CSS */
-
+.lang-menu {
+  width: 25vw;
+  height: 2vw;
+  color: #ffff;
+  text-transform: uppercase;
+  padding: 0.2em;
+  margin: 2.4em 0.8em;
+  margin-block-start: 3em;
+  margin-block-end: 1em;
+  margin-inline-start: 1px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  /* CSS */
-
-}
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  /* CSS */
-
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-  /* CSS */
-
-}
-
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  /* CSS */
-
+li {
+  text-align: center;
+  font-size: 1.30rem;
+  font: 1.3rem 'Julius Sans One', sans-serif;
+  display: inline;
+  padding: 2rem;
+  text-decoration: none;
 }
 
 .p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
-div {
-    display: block;
+.links {
+  display:flex;
 }
 
 .wrapper {
-  padding-top: 4rem;
+  padding-top: 14rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -106,36 +109,61 @@ div {
   font-size: 2.5rem;
 }
 
+a:active {
+  border: 0px solid;
+}
+
+a:link    {
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: darkgoldenrod;
+  text-align: center;
+  text-decoration: underline;
+  display: flex;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .author {
-    font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
-    font-style: italic;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1rem;
+  font-style: italic;
 }
 
-.country-selector a {
-    text-transform: uppercase;
+/*a.one:hover, a.one:active {
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.1);
 }
 
+a.one:link, a.one:visited {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 2px solid;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: underline;;
+  display: inline-block;
+}
+*/
 
-.lang menu {
 
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+/*.header {
+	background-color: rgba(255, 248, 53, .3);
 }
 
-ul {
-display: block;
-list-style-type: none;
-background-color: lightcoral;
+.main {
+	background-color: rgba(140, 96, 255, .3);
+  width: 50vw;
 }
 
-li {
-display: inline;
-}
-
-
-.links {
-width: 30%;
-margin: 0 auto;
-padding: 2px;
-text-align: center;
-
-}
+.post {
+	background-color: rgba(255, 0, 0, .3);
+}*/
