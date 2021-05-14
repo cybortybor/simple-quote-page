@@ -64,7 +64,6 @@ html, body {
   margin: 0px 0px 0px 0px;
   padding: 10px 10px;
   position: fixed;
-  display: inline-flex;
 }
 
 .lang-it {
@@ -73,7 +72,6 @@ html, body {
   margin: 0px 0px 0px 0px;
   padding: 10px 19px;
   position: fixed;
-  display: inline-flex;
 }
 
 .lang-de {
@@ -82,7 +80,6 @@ html, body {
   margin: 0px 0px 0px 0px;
   padding: 10px 19px;
   position: fixed;
-  display: inline-flex;
 }
 
 .lang-hu {
@@ -91,9 +88,8 @@ html, body {
   background-color: white;
   color: goldenrod!important;
   margin: 0px 0px 0px 0px;
-  padding: 10px 19px;
+  padding: 10px 1px;
   position: fixed;
-  display: inline-flex;
 }
 
 .lang-menu {
@@ -109,7 +105,7 @@ li {
   text-align: center;
   font: 1.5rem 'Julius Sans One', sans-serif;
   display: inline-flex;
-  padding: 2.9rem;
+  padding: 2.6rem;
   text-decoration: none;
   align-items: center;
 }

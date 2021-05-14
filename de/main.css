@@ -63,17 +63,13 @@ html, body {
   text-decoration: none;
   margin: 0px 0px 0px 0px;
   padding: 10px 10px;
-  position: fixed;
-  display: inline-flex;
 }
 
 .lang-it {
   width: 50px;
   text-decoration: none;
   margin: 0px 0px 0px 0px;
-  padding: 10px 15px;
-  position: fixed;
-  display: inline-flex;
+  padding: 10px 10px;
 }
 
 .lang-de {
@@ -83,8 +79,6 @@ html, body {
   color: goldenrod!important;
   margin: 0px 0px 0px 0px;
   padding: 10px 10px;
-  position: fixed;
-  display: inline-flex;
 }
 
 .lang-hu {
@@ -92,12 +86,10 @@ html, body {
   text-decoration: none;
   margin: 0px 0px 0px 0px;
   padding: 10px 10px;
-  position: fixed;
-  display: inline-flex;
 }
 
 .lang-menu {
-  width: 30vw;
+  width: 40vw;
   height: 8vw;
   color: #fff;
   text-transform: uppercase;
@@ -109,7 +101,7 @@ li {
   text-align: center;
   font: 1.5rem 'Julius Sans One', sans-serif;
   display: inline-flex;
-  padding: 2.9rem;
+  padding: 1.5rem;
   text-decoration: none;
   align-items: center;
 }
