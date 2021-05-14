@@ -42,8 +42,8 @@ img, {
 }
 
 body {
-  width: 100;
-  height: 100;
+  width: 100%;
+  height: 100%;
   background: url('assets/freedom.jpeg') no-repeat center;
   background-size: cover;
   color: #333;
@@ -59,34 +59,59 @@ html, body {
 }
 
 .lang-en {
+  width: 50px;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px;
+  position: fixed;
+  display: inline-flex;
+}
+
+.lang-it {
+  width: 50px;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 19px;
+  position: fixed;
+  display: inline-flex;
+}
+
+.lang-de {
+  width: 55px;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 19px;
+  position: fixed;
+  display: inline-flex;
+}
+
+.lang-hu {
+  width: 55px;
   text-decoration: none;
   background-color: white;
-  color: gray !important;
-  margin: 0px 0px 0px 10px;
-  padding: 7px 7px;
+  color: goldenrod!important;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 19px;
+  position: fixed;
+  display: inline-flex;
 }
 
 .lang-menu {
-  width: 25vw;
-  height: 2vw;
-  color: #ffff;
+  width: 30vw;
+  height: 8vw;
+  color: #fff;
   text-transform: uppercase;
-  padding: 0.2em;
-  margin: 2.4em 0.8em;
-  margin-block-start: 3em;
-  margin-block-end: 1em;
-  margin-inline-start: 1px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  position: absolute;
+  display: inline-flex;
 }
 
 li {
   text-align: center;
-  font-size: 1.30rem;
-  font: 1.3rem 'Julius Sans One', sans-serif;
-  display: inline;
-  padding: 2rem;
+  font: 1.5rem 'Julius Sans One', sans-serif;
+  display: inline-flex;
+  padding: 2.9rem;
   text-decoration: none;
+  align-items: center;
 }
 
 .p {
@@ -94,7 +119,7 @@ li {
 }
 
 .links {
-  display:flex;
+  display: inline-block;
 }
 
 .wrapper {
@@ -109,24 +134,21 @@ li {
   font-size: 2.5rem;
 }
 
-a:active {
-  border: 0px solid;
-}
-
 a:link    {
   text-decoration: none;
-
+  color: goldenrod;
 }
 
 a:visited {
-  color: darkgoldenrod;
+  color: goldenrod;
   text-align: center;
   text-decoration: underline;
   display: flex;
 }
 
 a:hover {
-  color: white;
+  color: goldenrod;
+  box-shadow: hsla(360, 100%, 100%, 1) 2px 2px 10px;
   text-decoration: none;
 }
 
@@ -135,35 +157,3 @@ a:hover {
   font-size: 1.1rem;
   font-style: italic;
 }
-
-/*a.one:hover, a.one:active {
-  background: rgba(0, 0, 0);
-  background: rgba(0, 0, 0, 0.1);
-}
-
-a.one:link, a.one:visited {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: white;
-  border: 2px solid;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: underline;;
-  display: inline-block;
-}
-*/
-
-
-/* ==== HELPER COLORS FOR LAYOUT ==== */
-
-/*.header {
-	background-color: rgba(255, 248, 53, .3);
-}
-
-.main {
-	background-color: rgba(140, 96, 255, .3);
-  width: 50vw;
-}
-
-.post {
-	background-color: rgba(255, 0, 0, .3);
-}*/
