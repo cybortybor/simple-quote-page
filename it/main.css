@@ -1,0 +1,169 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+div, header, {
+display: block;
+}
+
+
+/* ==== BASE STYLES ==== */
+
+* {
+  box-sizing: border-box;}
+
+  /* ==== LAYOUT STYLES ==== */
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+img, {
+  margin-bottom: 1rem;
+}
+
+body {
+  width: 100;
+  height: 100;
+  background: url(assets/freedom.jpeg) no-repeat center;
+  background-size: cover;
+  color: #333;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.lang-en {
+  text-decoration: none;
+  background-color: white;
+  color: gray !important;
+  margin: 0px 0px 0px 10px;
+  padding: 7px 7px;
+}
+
+.lang-menu {
+  width: 25vw;
+  height: 2vw;
+  color: #ffff;
+  text-transform: uppercase;
+  padding: 0.2em;
+  margin: 2.4em 0.8em;
+  margin-block-start: 3em;
+  margin-block-end: 1em;
+  margin-inline-start: 1px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  text-align: center;
+  font-size: 1.30rem;
+  font: 1.3rem 'Julius Sans One', sans-serif;
+  display: inline;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.p {
+  display: block;
+}
+
+.links {
+  display:flex;
+}
+
+.wrapper {
+  padding-top: 14rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem;
+}
+
+a:active {
+  border: 0px solid;
+}
+
+a:link    {
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: darkgoldenrod;
+  text-align: center;
+  text-decoration: underline;
+  display: flex;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/*a.one:hover, a.one:active {
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+a.one:link, a.one:visited {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 2px solid;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: underline;;
+  display: inline-block;
+}
+*/
+
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+/*.header {
+	background-color: rgba(255, 248, 53, .3);
+}
+
+.main {
+	background-color: rgba(140, 96, 255, .3);
+  width: 50vw;
+}
+
+.post {
+	background-color: rgba(255, 0, 0, .3);
+}*/
