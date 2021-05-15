@@ -59,63 +59,47 @@ html, body {
 }
 
 .lang-en {
-  width: 50px;
   text-decoration: none;
-  background-color: white;
-  color: goldenrod!important;
   margin: 0px 0px 0px 0px;
   padding: 10px 10px;
-  display: inline-flex;
 }
 
 .lang-it {
-  width: 50px;
   text-decoration: none;
   margin: 0px 0px 0px 0px;
-  padding: 10px 13px;
-  display: inline-flex;
+  padding: 0px 0px;
 }
 
 .lang-de {
-  width: 55px;
   text-decoration: none;
   margin: 0px 0px 0px 0px;
-  padding: 10px 11px;
-  display: inline-flex;
+  padding: 0px 0px;
 }
 
 .lang-hu {
-  width: 55px;
   text-decoration: none;
   margin: 0px 0px 0px 0px;
-  padding: 10px 10px;
-  display: inline-flex;
+  padding: 0px 0px;
 }
 
 .lang-menu {
-  width: 30vw;
-  height: 8vw;
   color: #fff;
   text-transform: uppercase;
-  position: absolute;
-  display: inline-flex;
+  display: flex;
 }
 
 li {
   text-align: center;
   font: 1.5rem 'Julius Sans One', sans-serif;
-  display: inline-flex;
+  display: inline-block;
   padding: 1.6rem;
   text-decoration: none;
   align-items: center;
+  display: inline-block;
 }
 
 .p {
   display: block;
-}
-
-.links {
-  display: inline-block;
 }
 
 .wrapper {
@@ -130,22 +114,27 @@ li {
   font-size: 2.5rem;
 }
 
+a.active {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10%;
+}
+
 a:link    {
   text-decoration: none;
-  color: goldenrod;
+  color:goldenrod;
 }
 
 a:visited {
-  color: goldenrod;
   text-align: center;
-  text-decoration: underline;
   display: flex;
+  color: goldenrod;
+  border-radius: 10%;
 }
 
 a:hover {
-  color: goldenrod;
-  box-shadow: hsla(360, 100%, 100%, 1) 2px 2px 10px;
   text-decoration: none;
+  color:goldenrod;
 }
 
 .author {
